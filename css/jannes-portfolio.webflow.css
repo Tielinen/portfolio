@@ -519,13 +519,13 @@ blockquote {
       from(rgba(0, 89, 99, 0.6)),
       to(rgba(0, 89, 99, 0.6))
     ),
-    url('../images/JT-headshot-853x873.jpg');
+    url('../images/jt-headshot-800x1200.jpg');
   background-image: linear-gradient(
       180deg,
       rgba(0, 89, 99, 0.6),
       rgba(0, 89, 99, 0.6)
     ),
-    url('../images/JT-headshot-853x873.jpg');
+    url('../images/jt-headshot-800x1200.jpg');
   background-position: 0px 0px, 50% 0%;
   background-size: auto, cover;
   background-repeat: repeat, no-repeat;
@@ -850,7 +850,7 @@ blockquote {
   border-width: 2px;
   border-color: #00ffd0;
   border-radius: 120px;
-  background-image: url('../images/jt-headshot-green-200x200.jpg');
+  background-image: url('../images/jt-headshot-200x300.jpg');
   background-position: 50% 50%;
   background-size: contain;
   background-repeat: no-repeat;
