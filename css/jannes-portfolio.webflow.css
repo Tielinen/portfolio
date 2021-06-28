@@ -850,7 +850,12 @@ blockquote {
   border-width: 2px;
   border-color: #00ffd0;
   border-radius: 120px;
-  background-image: url('../images/jt-headshot-200x300.jpg');
+  background-image: linear-gradient(
+      180deg,
+      rgba(0, 89, 99, 0.6),
+      rgba(0, 89, 99, 0.6)
+    ),
+    url('../images/jt-headshot-200x300.jpg');
   background-position: 50% 50%;
   background-size: contain;
   background-repeat: no-repeat;
