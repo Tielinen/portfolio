@@ -68,16 +68,15 @@
   </script>
   <link href="images/favicon.ico" rel="shortcut icon" type="image/x-icon" />
   <link href="images/webclip.png" rel="apple-touch-icon" />
-  <!-- <style>
-       {
-        -webkit-font-smoothing: antialiased;
-        -moz-osx-font-smoothing: grayscale;
-      }
-    </style> -->
-
   <link href="Dependencies/lity-2.4.1/dist/lity.css" rel="stylesheet">
   <script src="Dependencies/lity-2.4.1/vendor/jquery.js"></script>
   <script src="Dependencies/lity-2.4.1/dist/lity.js"></script>
+
+  <style class="|JT|">
+    ul {
+      list-style: none;
+    }
+  </style>
 </head>
 
 <body>
@@ -101,6 +100,28 @@
           <h1>Your Professional Shopify Developer.</h1>
         </div>
         <div class="column hero-image-column">
+          <div class="jt">
+            <h3 style>Core Shopify Services:</h3>
+            <ul>
+              <li>
+                <h4>Full Shopify Store creation</h4>
+                Brand new Shopify design & development from scratch.
+              </li>
+              <li>
+                <h4>Migration</h4>
+                Kickstart your Shopify journey with a seamless, stress-free migration.
+              </li>
+
+              </li>
+              <li>
+                <h4>Shopify Theme Customization</h4>
+                Liquid and Shopify theme development to multiply traffic and conversions for your business and
+                website.
+              </li>
+              <li></li>
+            </ul>
+
+          </div>
 
           <div class="hero-details-container">
             <div class="profile-image"></div>
@@ -726,16 +747,24 @@
             <form id="email-form" name="email-form" data-name="Email Form" method="post"
               action="https://mailthis.to/jannet">
               <h3 class="form-heading">Contact Form</h3>
-              <label for="Name-3" class="field-label">Name</label><input type="text" class="form-field w-input"
-                maxlength="256" name="Name" data-name="Name" placeholder="Enter your name" id="Name-3" /><label
-                for="Email-3" class="field-label">Email Address</label><input type="email" class="form-field w-input"
-                maxlength="256" name="Email" data-name="Email" placeholder="Enter your email" id="Email-3"
-                required="" /><label for="Message" class="field-label">Message</label><textarea
-                placeholder="Write your message here" maxlength="5000" id="Message" name="Message" data-name="Message"
-                class="form-field text-area w-input"></textarea><input type="submit" value="Submit"
-                data-wait="Please wait..." class="button-main w-button" />
+              <label for="Name-3" class="field-label">Name</label>
+              <input type="text" class="form-field w-input" maxlength="256" name="Name" data-name="Name"
+                placeholder="Enter your name" id="Name-3" />
+              <label for="Email-3" class="field-label">Email Address</label>
+              <input type="email" class="form-field w-input" maxlength="256" name="Email" data-name="Email"
+                placeholder="Enter your email" id="Email-3" required="" />
+              <label for="Message" class="field-label">Message</label>
+              <textarea placeholder="Write your message here" maxlength="5000" id="Message" name="Message"
+                data-name="Message" class="form-field text-area w-input"></textarea>
+              <input type="submit" value="Submit" data-wait="Please wait..." class="button-main w-button" />
+
+              <!-- <|JT|> -->
+              <input type="hidden" name="_after" value="https://tielinen.github.io/portfolio/">
+              <input type="hidden" name="_honeypot" value="">
+              <!-- </|JT|> -->
+
             </form>
-            <div class="success-message w-form-done">
+            <div class="success-message w-form-done" style="display:block;">
               <div>Thank you! Your submission has been received!</div>
             </div>
             <div class="error-message w-form-fail">
@@ -858,91 +887,6 @@
       // ]]>
   </script>
 
-
-  <script>
-    const heroImageColumn = document.querySelector(".hero-image-column")
-    heroImageColumn.insertAdjacentHTML('afterbegin',
-      `
-      <div class="js-susan" style="display: none;">
-        <h3>Check with Susan</h3>
-        <ol class = "js-lista" >
-          <li>
-            A portfolio website video is optional, but I consider an UpWork as REQUIRED, it just helps so much, with zero downside.
-            <ul>
-            <li>IF there is portfolio video, it should be in begining? Flow of document</li>
-            <li>Script</li>
-            </ul>
-          </li>
-          <li>
-            <a href="https://amajid.dev/?fbclid=IwAR3JLc5fOAHVtvzy_9r4aSW5p-2evmRhPf8ETMSpHsbGaiSCbqSa_kXf8PU">Do I need services section?</a>
-            <ul>
-              <li>Store setups + (customization)</li>
-              <li>Store migrations</li>
-              <li>Conversion Optimization</li>
-
-            </ul>
-          </li>
-
-          <li>
-            Is it better to make better reference shops before release or finish it with what you have, move on
-            and same time make new shops or make portfolio/shops better.
-          </li>
-
-          <li>Fast release, without introduction video, just project videos, and after release introduction video</li>
-          <li>
-            <a href="https://joe-bloggs.webflow.io/">Joe Bloggs</a>
-          </li>
-        </ol  >
-      </div>
-      `)
-
-    document.querySelector(".main").insertAdjacentHTML('beforeend', `<p class="script" style="display: none;">
-                SCRIPT
-<br><br><br>
-                We specialize exclusively in SHOPIFY. 
-                <br><br>
-                - We'll set up your theme for you
-                - do your migration
-                - or do any theme edits that you need
-                <br><br>
-                You should know ONE THING, though...
-                We do everything we can for our clients to be satisfied,
-                And we don't rest until that happens.
-                <br><br>
-                So we value communication over everything.
-                And we know most people have had a bad experience or 2 in the past,
-                <br><br>
-                But we're sure of one thing.
-                <br><br>
-                And that is: 
-                we're going to get your store perfect, just the way you want it.
-                <br><br>
-                <strong>So below,</strong> you'll find demos of some different stores we've worked on.
-                A personal favorite of mine is "Two Clothes"
-                <br><br>
-                You can see that we've built a premium theme into something really dynamic and interesting there, and we have a demo video for you to outline those sections.
-                <br><br>
-                Finally, at the bottom of the page, you'll find a contact form.
-                Use this to get in touch with us for ANY questions about Shopify that you have.
-                Or, if you want to work together, don't hesitate to reach out.
-                <br>
-                ALRIGHT
-                <br><br>
-                Thanks for visiting, and hope to talk to you soon.
-              </p>`
-    )
-    const profileImage = document.querySelector(".profile-image")
-    const susan = document.querySelector(".js-susan")
-    const script = document.querySelector(".script")
-
-    profileImage.addEventListener("click", function () {
-      susan.style.display = getComputedStyle(susan).display === 'none' ? 'block' : 'none'
-      script.style.display = getComputedStyle(script).display === 'none' ? 'block' : 'none'
-
-    });
-
-
-  </script>
 </body>
 
 </html>
