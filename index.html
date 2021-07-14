@@ -49,6 +49,7 @@
   </script>
   <link href="images/favicon.ico" rel="shortcut icon" type="image/x-icon" />
   <link href="images/webclip.png" rel="apple-touch-icon" />
+
   <!-- ↓ <|JT|> ↓ -->
   <link href="Dependencies/lity-2.4.1/dist/lity.css" rel="stylesheet">
   <script src="Dependencies/lity-2.4.1/vendor/jquery.js"></script>
@@ -70,12 +71,25 @@
       margin-top: 10px;
     }
 
+    .hero-section,
+    #Bio,
+    #Hire-Me {
+      max-width: 1855px;
+    }
+
+    .hero-heading h1 {
+      margin-top: 72px;
+      font-size: 72px;
+      line-height: 72px;
+
+    }
+
     #top-button {
       display: inline-block;
+      background-color: #005963;
       border: none;
       border-radius: 50px;
       text-align: center;
-
       position: fixed;
       bottom: 30px;
       right: 30px;
@@ -100,6 +114,10 @@
       opacity: 1;
       visibility: visible;
     }
+
+    #top-button:hover {
+      cursor: pointer;
+    }
   </style>
   <!-- ↑ <|JT|> ↑ -->
 </head>
@@ -122,29 +140,28 @@
       </div>
       <div class="container">
         <div class="column hero-heading">
-          <h1>Shopify<br>Store Setup Expert<br>&<br>Shopify<br>Theme Developer</h1>
+          <h1>Shopify<br>Store Setup Expert<br>&Theme Developer</h1>
         </div>
         <div class="column hero-image-column">
           <div class="jt">
             <h3 style>Core Shopify Services:</h3>
             <ul>
               <li>
-                <h4>Full Shopify Store creation</h4>
+                <h4>- Full Shopify Store creation</h4>
                 Brand new Shopify store design & development from scratch.
               </li>
               <li>
-                <h4>Migration</h4>
+                <h4>- Migration</h4>
                 Kickstart your Shopify journey with a seamless, stress-free migration.
               </li>
 
               </li>
               <li>
-                <h4>Shopify Theme Customization</h4>
+                <h4>- Shopify Theme Customization</h4>
                 Liquid and Shopify theme development to increase traffic and conversions for your business and
                 website.
               </li>
             </ul>
-            <p><strong>Here some call to action or/and build trust sentence!</strong></p>
           </div>
 
           <div class="hero-details-container">
@@ -185,9 +202,9 @@
                     Store features includes, but are not limited to:
 
                   <ul class="project-list">
-                    <li>Image Hotspot - to cross-sell products</li>
-                    <li>Mega Menus - for product accessibility</li>
-                    <li>Filters with multiple options - to increase conversions and revenue</li>
+                    <li><strong>- Image Hotspots</strong> to cross-sell products.</li>
+                    <li><strong>- Mega Menus</strong> for product accessibility.</li>
+                    <li><strong>- Filters</strong> with multiple options to increase conversions and revenue.</li>
                   </ul>
 
 

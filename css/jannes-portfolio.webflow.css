@@ -415,9 +415,17 @@ blockquote {
   -ms-flex-direction: column;
   flex-direction: column;
   -webkit-box-pack: end;
+  /*
+  |JT|
   -webkit-justify-content: flex-end;
+  */
+  -webkit-justify-content: flex-start;
   -ms-flex-pack: end;
+  /*
+  |JT|
   justify-content: flex-end;
+  */
+  justify-content: flex-start;
   -webkit-align-self: stretch;
   -ms-flex-item-align: stretch;
   align-self: stretch;
@@ -1139,7 +1147,11 @@ blockquote {
   position: relative;
 }
 
+/*
+|JT|
 @media screen and (max-width: 991px) {
+*/
+  @media screen and (max-width: 1500px) {
   h1 {
     font-size: 80px;
     line-height: 80px;
