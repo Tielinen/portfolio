@@ -17,7 +17,7 @@ window.addEventListener( "load", function () {
       document.querySelector('.w-form-fail').style.display = 'block';
     } );
 
-    XHR.open( "POST", "https://mailthis.to/jannet" );
+    XHR.open( "POST", "https://mailthis.to/projanne" );
     XHR.send( FD );
   }
 
