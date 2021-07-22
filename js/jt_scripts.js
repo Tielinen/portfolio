@@ -17,7 +17,7 @@ window.addEventListener( "load", function () {
       document.querySelector('.w-form-fail').style.display = 'block';
     } );
 
-    XHR.open( "POST", "https://mailthis.to/projanne" );
+    XHR.open( "POST", "https://mailthis.to/msg@tielinen.pro" );
     XHR.send( FD );
   }
 
