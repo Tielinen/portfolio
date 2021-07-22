@@ -2,33 +2,34 @@
 
 // process form
 // https://developer.mozilla.org/en-US/docs/Learn/Forms/Sending_forms_through_JavaScript#using_formdata_bound_to_a_form_element
-window.addEventListener( "load", function () {
-  function sendData() {
-    const XHR = new XMLHttpRequest();
-    const FD = new FormData( form );
 
-    XHR.addEventListener( "load", function(event) {
-      form.reset();
-      form.style.display = 'none';
-      document.querySelector('.w-form-done').style.display = 'block';
-    } );
+// window.addEventListener( "load", function () {
+//   function sendData() {
+//     const XHR = new XMLHttpRequest();
+//     const FD = new FormData( form );
 
-    XHR.addEventListener( "error", function( event ) {
-      document.querySelector('.w-form-fail').style.display = 'block';
-    } );
+//     XHR.addEventListener( "load", function(event) {
+//       form.reset();
+//       form.style.display = 'none';
+//       document.querySelector('.w-form-done').style.display = 'block';
+//     } );
 
-    XHR.open( "POST", "https://mailthis.to/msg@tielinen.pro" );
-    XHR.send( FD );
-  }
+//     XHR.addEventListener( "error", function( event ) {
+//       document.querySelector('.w-form-fail').style.display = 'block';
+//     } );
 
-  const form = document.getElementById( "email-form" );
+//     XHR.open( "POST", "https://mailthis.to/msg@tielinen.pro" );
+//     XHR.send( FD );
+//   }
 
-  form.addEventListener( "submit", function ( event ) {
-    event.preventDefault();
+//   const form = document.getElementById( "email-form" );
 
-    sendData();
-  } );
-} );
+//   form.addEventListener( "submit", function ( event ) {
+//     event.preventDefault();
+
+//     sendData();
+//   } );
+// } );
 
 //top button
 const btn = $('#top-button');
