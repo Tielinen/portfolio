@@ -119,6 +119,11 @@
 
     /* ↑ <BACK TO TOP BUTTON> ↑ */
 
+    .hero-heading h1 {
+      font-size: 72px;
+      line-height: 72px;
+    }
+
     .services li h4,
     .services p {
       margin-top: 25px;
@@ -133,8 +138,37 @@
       list-style: none;
     }
 
+    @media screen and (max-width: 991px) {
+      ul {
+        padding: 0;
+      }
+    }
+
     .feature-list li {
       margin-top: 10px;
+    }
+
+
+
+    .list-header {
+      font-weight: bold;
+    }
+
+    @media screen and (max-width: 375px) {
+
+      .hero-heading h1 {
+        font-size: 54px;
+        line-height: 54px;
+      }
+
+      .feature-list {
+        text-align: center;
+        font-size: 16px;
+      }
+
+      .list-header {
+        display: block;
+      }
     }
 
     .project-souce a {
@@ -150,11 +184,6 @@
     .hero-section .container {
       font-display: flex;
       justify-content: flex-end;
-    }
-
-    .hero-heading h1 {
-      font-size: 72px;
-      line-height: 72px;
     }
   </style>
   <!-- ↑ <|JT|> ↑ -->
@@ -240,9 +269,10 @@
                     The online store features include, but are not limited to:
 
                   <ul class="feature-list">
-                    <li><strong>- Image Hotspots</strong> to cross-sell products.</li>
-                    <li><strong>- Mega Menus</strong> for product accessibility.</li>
-                    <li><strong>- Filters</strong> with multiple options to increase conversions and revenue.</li>
+                    <li><span class="list-header">- Mega Menus</span> for product accessibility.</li>
+                    <li><span class="list-header">- Image Hotspots</span> to cross-sell products.</li>
+                    <li><span class="list-header">- Filters</span> with multiple options to increase conversions and
+                      revenue.</li>
                   </ul>
                   </p>
                   <div class="project-button-wrap">
@@ -308,9 +338,20 @@
                 <div class="column project-column">
                   <h2>Milkyway Box Store</h2>
                   <p>
-                    The Milkyway box Shopify store is a one-product demo store. In this shop, you can add an
-                    affiliate button to your product page.
+                    The Milkyway box Shopify demo store is built on a customized Shopify’s free default theme.</p>
+                  <p>
+                    The online store benefits include, but are not limited to:
+
+                  <ul class="feature-list">
+                    <li><span class="list-header">- One-Product Store</span> to optimize marketing budget.</li>
+                    <li><span class="list-header">- Simple design</span> to gain low deployment costs.</li>
+                    <li><span class="list-header">- Affiliate product pages</span> to increase the profit of your
+                      affiliate links.
+                    </li>
+                  </ul>
                   </p>
+
+
                   <div class="project-button-wrap">
                     <a href="videos/Milkyway_Box_Store.mp4" data-lity class="button-main project-button w-button">
                       View Demo Video</a>
@@ -374,8 +415,18 @@
                 <div class="column project-column">
                   <h2>Kinda Hot Sauce</h2>
                   <p>
-                    Shopify Demo Shop based on tutorial "How
-                    to Start an Online Store with Shopify".
+                    Fully functional Shopify Demo Shop.
+                  </p>
+                  <p>
+                    The online store benefits include, but are not limited to:
+                  <ul class="feature-list">
+                    <li><span class="list-header">- Example demo shop</span> Based on tutorial "How
+                      to Start an Online Store with Shopify".</li>
+                    <li><span class="list-header">- Simple design</span> to gain low deployment costs.</li>
+                    <li><span class="list-header">- Production-ready</span> easy to convert fully functioning proper
+                      online Shop.
+                    </li>
+                  </ul>
                   </p>
                   <div class="project-button-wrap">
                     <a href="videos/MildHotSouce.mp4" data-lity class="button-main project-button w-button">
