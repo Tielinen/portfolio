@@ -529,8 +529,8 @@ blockquote {
     url('../images/jt-new-headsot-1944x1944.jpg');
   background-image: linear-gradient(
       180deg,
-      rgba(0, 89, 99, 0.6),
-      rgba(0, 89, 99, 0.6)
+      rgba(0, 89, 99, 0.4),
+      rgba(0, 89, 99, 0.4)
     ),
     url('../images/jt-new-headsot-1944x1944.jpg');
   background-position: 0px 0px, 50% 0%;
@@ -859,8 +859,8 @@ blockquote {
   border-radius: 120px;
   background-image: linear-gradient(
       180deg,
-      rgba(0, 89, 99, 0.6),
-      rgba(0, 89, 99, 0.6)
+      rgba(0, 89, 99, 0.3),
+      rgba(0, 89, 99, 0.3)
     ),
     url('../images/jt-new-headsot-small.jpg');
   background-position: 50% 50%;
