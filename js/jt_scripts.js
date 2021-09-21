@@ -14,17 +14,17 @@ window.addEventListener( "load", function () {
       document.querySelector('.w-form-done').style.display = 'block';
     } );
 
-    XHR.addEventListener( "error", function( event ) {
+    XHR.addEventListener( "error", function(event) {
       document.querySelector('.w-form-fail').style.display = 'block';
     } );
 
-    XHR.open( "POST", "https://formsubmit.co/janne@tielinen.pro" );
+    XHR.open( "POST", "https://formsubmit.co/ajax/janne@tielinen.pro" );
     XHR.send( FD );
   }
 
   const form = document.getElementById( "email-form" );
 
-  form.addEventListener( "submit", function ( event ) {
+  form.addEventListener( "submit", function (event) {
     event.preventDefault();
 
     sendData();
