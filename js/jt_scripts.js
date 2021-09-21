@@ -14,9 +14,10 @@ window.addEventListener( "load", function () {
       document.querySelector('.w-form-done').style.display = 'block';
     } );
 
-    XHR.addEventListener( "error", function(event) {
-      document.querySelector('.w-form-fail').style.display = 'block';
-    } );
+    //  "https://formsubmit.co/ajax/janne@tielinen.pro" seems to return error every time but still delivers messages.      
+    // XHR.addEventListener( "error", function(event) {
+    //   document.querySelector('.w-form-fail').style.display = 'block';
+    // } );
 
     XHR.open( "POST", "https://formsubmit.co/ajax/janne@tielinen.pro" );
     XHR.send( FD );
